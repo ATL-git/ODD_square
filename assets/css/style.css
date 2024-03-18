@@ -1,0 +1,77 @@
+body{
+   font-family: "Short Stack", cursive;
+   margin: 0px;
+   padding: 0px;
+}
+
+.carre {
+
+    border: 3px solid rgb(241, 235, 235);
+    border-radius: 10px;
+    width: 40%;
+    height: 60%;
+
+}
+main{
+    background-color: rgb(209, 128, 126);
+    margin:0px;
+    padding: 0;
+}
+
+h1{
+ text-align: center;
+ padding: 50px;
+ margin: 0;
+ font-size: 50px;
+ background-color: rgb(9, 139, 253);
+}
+
+#carreContainer {
+
+    width: 80%;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    gap: 60px;
+    padding-bottom: 60px;
+}
+
+.buttons {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: 30px;
+    margin-bottom: 60px;
+    background-color: rgb(175, 227, 180);
+    
+}
+
+#restart{
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#restart:hover{
+    transform: scale(1.1);
+}
+
+#score{
+    display: flex;
+    align-items: center;
+}
+
+#timer{
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgb(9, 139, 253) ;
+height: 100px;
+font-size: 30px;
+}
